@@ -6,10 +6,6 @@ import matplotlib.pyplot as plt
 path = r'C:\Users\andreit\Downloads\person100_bacteria_478.jpeg'
 test2 = plt.imread(path)
 
-plt.figure()
-plt.imshow(test2)
-plt.title("Original Image")
-
 # === Transformarea unei imagini color intr-o imagine alb-negru ===
 def rgb2gray(img_in, tip='JPEG'):
     s = img_in.shape
