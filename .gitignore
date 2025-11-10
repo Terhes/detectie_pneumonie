@@ -1,0 +1,26 @@
+# Dataset directories
+chest_xray/
+Data_Entry_2017.csv
+
+# Trained models
+*.pkl
+*.joblib
+*.h5
+*.pth
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
